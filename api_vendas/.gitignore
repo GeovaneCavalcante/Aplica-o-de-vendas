@@ -35,16 +35,16 @@ nosetests.xml
 .pydevproject
 
 *.db
-db.sqlite3
-media
-local_settings.py
+api_vendas/db.sqlite3
+api_vendas/media
+api_vendas/local_settings.py
 
 .DS_Store
 collectstatic
 
-.idea
+api_vendas/.idea
 
-development.py
+api_vendas/development.py
 
 # Data postgres docker
-data
+api_vendas/data
