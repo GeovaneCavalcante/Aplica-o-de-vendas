@@ -35,7 +35,7 @@ nosetests.xml
 .pydevproject
 
 *.db
-api_vendas/db.sqlite3
+/api_vendas/db.sqlite3
 api_vendas/media
 api_vendas/local_settings.py
 
