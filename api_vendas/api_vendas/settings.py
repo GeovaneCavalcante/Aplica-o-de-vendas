@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #Apps
-    'apps.accounts'
+    'apps.accounts',
+    'teste'
 
 ]
 
@@ -82,10 +83,12 @@ AUTHENTICATION_BACKENDS = (
     "apps.accounts.backend.MyBackend",
 )
 
-
 #Django JET
 
+JET_INDEX_DASHBOARD = 'api_vendas.dashboard.CustomIndexDashboard'
 JET_DEFAULT_THEME = 'light-violet'
+
+
 
 WSGI_APPLICATION = 'api_vendas.wsgi.application'
 
